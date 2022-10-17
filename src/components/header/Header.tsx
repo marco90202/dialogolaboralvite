@@ -1,6 +1,6 @@
 import React from 'react';
-import {Button, Container, Menu, Menu_items, Menu_li, Logo} from './styles';
-import hamburguerMenu from '../../assets/icons/hamburgerMenu.svg';
+import Sidebar from '../Sidebar/Sidebar';
+import {Button, Container, Menu, Menu_items, Menu_li, Logo, } from './styles';
 
 const Header = () => {
 
@@ -10,7 +10,7 @@ const Header = () => {
             <Container>
                 <Menu>
                     <Logo>dialogo laboral</Logo>
-                    <img className="Icono"style={{width: '40px', marginRight: '20px'}} src={hamburguerMenu} alt='iconmenu'/>
+                    
                         <Menu_items>
                                 <Menu_li>inicio</Menu_li>
                                 <Menu_li>nosotros</Menu_li>
@@ -18,7 +18,9 @@ const Header = () => {
                                 <Menu_li>eventos</Menu_li>
                                 <Menu_li>contactenos</Menu_li>
                         </Menu_items>
+                    <Sidebar />
                 </Menu>
+                
             </Container>
         
     )
