@@ -8,6 +8,13 @@ const Button = styled.button`
 const Container = styled.div`
   width: 100%;
   height: 100%;
+  a {
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
 `;
 
 const Logo = styled.h2`
@@ -30,9 +37,7 @@ const Menu = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #fff;
   box-shadow: 5px 0 0px rgba(0, 0, 0, 0.6);
-  position: fixed;
 `;
 
 const Menu_items = styled.ul`
