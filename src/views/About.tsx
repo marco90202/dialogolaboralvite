@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <HeaderCibertec />
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", width: "1350px" }}>
         <AboutCibertec />
         <CardCibertec />
       </div>

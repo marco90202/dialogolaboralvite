@@ -6,6 +6,7 @@ const ContainerFooter = styled.div`
   width: 1360px;
   margin: 98px 0px 0px 0px;
   display: flex;
+  justify-content: center;
 `;
 
 const TextContact = styled.li`
@@ -24,7 +25,10 @@ const TextContact = styled.li`
 `;
 
 const TextDirection = styled.p`
-  width: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   height: 48px;
   padding-top: 36px;
 
