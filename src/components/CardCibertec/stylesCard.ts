@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+const ContentCard = styled.div`
+  background: #f8fafd;
+  width: 100%;
+  padding-top: 96px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 40px;
+`;
+
 const ContainerCard = styled.div`
   /* position: absolute; */
   width: 200px;
@@ -44,4 +53,11 @@ const Arrow = styled.img`
   padding-left: 18px;
 `;
 
-export { ContainerCard, Inscription, ContentArrow, TextInscription, Arrow };
+export {
+  ContentCard,
+  ContainerCard,
+  Inscription,
+  ContentArrow,
+  TextInscription,
+  Arrow,
+};

@@ -9,6 +9,7 @@ import {
   ListBar,
   ItemList,
   BodyPhoto,
+  PhotoPage,
 } from "./styles";
 
 const HeaderCibertec = () => {
@@ -23,7 +24,7 @@ const HeaderCibertec = () => {
         </ListBar>
       </Header>
       <BodyPhoto>
-        <img style={{ width: "1349px" }} src={portada} alt="portada" />
+        <PhotoPage src={portada} alt="portada" />
       </BodyPhoto>
     </>
   );

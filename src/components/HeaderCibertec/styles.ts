@@ -39,7 +39,10 @@ const ItemList = styled.li`
 const BodyPhoto = styled.div`
   width: 100%;
   height: 626px;
-
   border-radius: 0px 0px 0px 200px;
 `;
-export { Header, ImgLogo, ImgText, ListBar, ItemList, BodyPhoto };
+
+const PhotoPage = styled.img`
+  width: 1349px;
+`;
+export { Header, ImgLogo, ImgText, ListBar, ItemList, BodyPhoto, PhotoPage };

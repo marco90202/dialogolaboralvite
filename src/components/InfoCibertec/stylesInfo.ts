@@ -9,15 +9,20 @@ const ContainerInfo = styled.div`
   border-radius: 120px 0px;
 `;
 
-/* const InfoSmart = styled.div`
+const ContentInfo = styled.div`
   display: flex;
-`; */
+`;
+
+const ContentCell = styled.div`
+  padding-top: 30px;
+  padding-left: 64px;
+`;
 
 const Title = styled.h3`
   width: 156px;
   height: 28px;
   margin-bottom: 0px;
-  /* font-family: 'Fira Sans'; */
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -52,8 +57,50 @@ const IconCell = styled.img`
   margin-top: 10px;
 `;
 
+const ButtonWrite = styled.input`
+  padding: 8px;
+  width: 160px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  border-radius: 28px;
+  background: #0075b0;
+  color: #ffffff;
+  margin-left: 40px;
+`;
+
+const ContentPhone = styled.div`
+  padding-top: 30px;
+  padding-left: 42px;
+  margin: 0px;
+`;
+
 const IconPhone = styled.img`
   padding-right: 17px;
   margin-top: 10px;
 `;
-export { ContainerInfo, Title, Text, PhotoInfo, IconCell, IconPhone };
+
+const ButtonPhone = styled.input`
+  padding: 8px;
+  width: 160px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  border-radius: 28px;
+  background: #0075b0;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 86px;
+`;
+
+export {
+  ContainerInfo,
+  ContentInfo,
+  ContentCell,
+  Title,
+  Text,
+  PhotoInfo,
+  IconCell,
+  ButtonWrite,
+  ContentPhone,
+  IconPhone,
+  ButtonPhone,
+};

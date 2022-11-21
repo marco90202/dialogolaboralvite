@@ -9,8 +9,40 @@ const ContainerFooter = styled.div`
   justify-content: center;
 `;
 
+const FooterContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const LogoCibertec = styled.div`
+  margin-top: 30px;
+`;
+
+const IconCibertec = styled.img`
+  padding-top: 25px;
+  padding-left: 74px;
+`;
+
+const ContentNetwork = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-left: 50px;
+`;
+
+const ListNetwork = styled.ul`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+`;
+
+const ContentList = styled.ul`
+  padding-left: 108px;
+  padding-top: 40px;
+`;
+
 const TextContact = styled.li`
-  /* font-family: "Fira Sans"; */
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -20,8 +52,12 @@ const TextContact = styled.li`
   letter-spacing: -0.4px;
   text-decoration-line: underline;
   color: #ffffff;
-
   padding-bottom: 8px;
+`;
+
+const ContentLink = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;
 
 const TextDirection = styled.p`
@@ -31,7 +67,6 @@ const TextDirection = styled.p`
   justify-content: flex-end;
   height: 48px;
   padding-top: 36px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -41,4 +76,15 @@ const TextDirection = styled.p`
   color: #ffffff;
 `;
 
-export { ContainerFooter, TextContact, TextDirection };
+export {
+  ContainerFooter,
+  FooterContent,
+  LogoCibertec,
+  IconCibertec,
+  ContentNetwork,
+  ListNetwork,
+  ContentList,
+  TextContact,
+  ContentLink,
+  TextDirection,
+};

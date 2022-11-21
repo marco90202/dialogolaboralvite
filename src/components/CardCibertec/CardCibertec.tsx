@@ -2,6 +2,7 @@ import React from "react";
 import iconInscription from "../../assets/cibertec/icons/iconInscription.svg";
 import iconArrow from "../../assets/cibertec/icons/iconArrow.svg";
 import {
+  ContentCard,
   ContainerCard,
   Inscription,
   ContentArrow,
@@ -11,16 +12,7 @@ import {
 
 const CardCibertec = () => {
   return (
-    <div
-      style={{
-        background: "#F8FAFD",
-        width: "100%",
-        paddingTop: "96px",
-        display: "grid",
-        gridTemplateColumns: "repeat(3, 200px)",
-        gridGap: "40px",
-      }}
-    >
+    <ContentCard>
       <ContainerCard>
         <Inscription src={iconInscription} alt="iconInscription" />
         <ContentArrow>
@@ -84,7 +76,7 @@ const CardCibertec = () => {
           <Arrow src={iconArrow} alt="iconArrow" />
         </ContentArrow>
       </ContainerCard>
-    </div>
+    </ContentCard>
   );
 };
 
